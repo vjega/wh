@@ -81,7 +81,121 @@
 	<div class="container">
 		<!-- Navbar -->
 		<div class="navbar navbar-default navbar-inverse navbar-fixed-top">
-            <div class="container">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <?php //echo link_to_action('HomeController@index', 'Site'); ?>                       
+                </li>
+                <li class="">
+                    <?php //echo link_to_action('PartiesController@index', 'Parties'); ?>                       
+                </li>
+                <li>
+                    <?php //echo link_to_action('ProductsController@index', 'Products'); ?>                       
+                </li>
+                <li class="dropdown">
+                    <?php //echo link_to_action('LocationsController@index', 'Locations'); ?>
+                    <ul class="dropdown-menu">
+                        <li>
+                    <?php //echo link_to_action('GroupsController@index', 'Groups'); ?>
+                        </li>
+                        <li>
+                    <?php //echo link_to_action('ZonesController@index', 'Zones'); ?>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">SKU <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">SKU</a>
+                        </li>
+                        <li>
+                            <a href="#">UOM/SIZE</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vendor <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Vendors</a>
+                        </li>
+                        <li>
+                            <a href="#">Master</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Consignee <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Consignee</a>
+                        </li>
+                        <li>
+                            <a href="#">Master</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <?php //echo link_to_action('InboundsController@index', 'Inbounds'); ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Receipts</a>
+                        </li>
+                        <li>
+                            <a href="#">ASN / PO</a>
+                        </li>
+                        <li>
+                            <a href="#">GRN</a>
+                        </li>
+                        <li>
+                            <a href="#">Put Away</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <?php //echo link_to_action('OutboundsController@index', 'Outbounds'); ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Pick List</a>
+                        </li>
+                        <li>
+                            <a href="#">Order</a>
+                        </li>
+                        <li>
+                            <a href="#">Process</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reports <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">PDF</a>
+                        </li>
+                        <li>
+                            <a href="#">Excel</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+
+                <!-- User Navs -->
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="./">Hi Hameed</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-cogs"></i></a>
+                    </li>
+                </ul>
+
+            <!-- div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -120,7 +234,7 @@
     					</li>
     				</ul>
     			</div>
-            </div>
+            </div -->
 		</div>
 		<!-- ./ navbar -->
 
